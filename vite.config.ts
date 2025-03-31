@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
   ],
+  base: '/gaana_ai/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
